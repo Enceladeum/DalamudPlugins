@@ -1,9 +1,8 @@
-# The Enceladeum — Dalamud Plugin Repository
+# The Enceladeum Dalamud Plugin Repository
 
 A single custom-repository feed for all of **The Enceladeum**'s FFXIV / Dalamud
 plugins. Add the one URL below and every plugin here shows up in the in-game
-installer — and any plugin added later appears automatically, with no extra URL
-to paste.
+installer and any plugin added later appears automatically.
 
 ## Installing
 
@@ -30,8 +29,8 @@ to paste.
 Each plugin keeps its own repository, releases, and issue tracker; this feed is
 just the shared index that points at them:
 
-- HOutfits — https://github.com/Enceladeum/HOutfits
-- Cosmic Claw (HClawsweep) — https://github.com/Enceladeum/HClawsweep
+- HOutfits - https://github.com/Enceladeum/HOutfits
+- Cosmic Claw (HClawsweep) - https://github.com/Enceladeum/HClawsweep
 
 ## How this feed works
 
@@ -39,7 +38,7 @@ A Dalamud custom repository is a single JSON file ([`repo.json`](repo.json)) tha
 holds an **array** of plugin manifests. Dalamud reads the array and offers every
 entry to anyone subscribed to the URL. Each entry's `DownloadLinkInstall` points
 at that plugin's own GitHub releases, so the actual plugin zips are never hosted
-here — only the index. Publishing a new plugin (or a new version) is a matter of
+here, only the index. Publishing a new plugin (or a new version) is a matter of
 adding/updating its entry in this file.
 
 ## License
