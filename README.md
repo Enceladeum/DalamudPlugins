@@ -25,12 +25,16 @@ installer and any plugin added later appears automatically.
 | --- | --- | --- |
 | **HOutfits** | `/houtfits` | Apply a complete named outfit set — or any single piece — to your character through [Glamourer](https://github.com/Ottermandias/Glamourer) in one click. Requires Glamourer. |
 | **Cosmic Claw** | `/clawsweep`, `/clawsweeploop` | Play the Cosmic Predator's Magitek *Claw Sweep* animation on demand — once or on a loop — while mounted on it. Purely cosmetic and local-only. |
+| **HMoniker** | `/hmoniker` | Compose your nameplate name from five free-text slots (prefix, first, middle, last, suffix) and optionally hide the free company tag. Local-only: the name shows to yourself outside HMS sessions. |
+| **Begone!** | `/begone` | Click the dot over any visible event NPC to hide it; click again to bring it back. Cosmetic and client-side only, and collision is never touched. Hides are remembered per map. |
 
 Each plugin keeps its own repository, releases, and issue tracker; this feed is
 just the shared index that points at them:
 
 - HOutfits - https://github.com/Enceladeum/HOutfits
 - Cosmic Claw (HClawsweep) - https://github.com/Enceladeum/HClawsweep
+- HMoniker - https://github.com/Enceladeum/HMoniker
+- Begone! - https://github.com/Enceladeum/Begone
 
 ## How this feed works
 
