@@ -25,7 +25,7 @@ installer and any plugin added later appears automatically.
 | --- | --- | --- |
 | **HOutfits** | `/houtfits` | Apply a complete named outfit set — or any single piece — to your character through [Glamourer](https://github.com/Ottermandias/Glamourer) in one click. Requires Glamourer. |
 | **Cosmic Claw** | `/clawsweep`, `/clawsweeploop` | Play the Cosmic Predator's Magitek *Claw Sweep* animation on demand — once or on a loop — while mounted on it. Purely cosmetic and local-only. |
-| **HMoniker** | `/hmoniker` | Compose your nameplate name from five free-text slots (prefix, first, middle, last, suffix) and optionally hide the free company tag. Local-only: the name shows to yourself outside HMS sessions. |
+| **HMoniker** | `/hmoniker` | Compose your nameplate name from five free-text slots (prefix, first, middle, last, suffix) and optionally hide the FC tag, title, online-status icon, or your whole name. Local-only: the name shows to yourself outside HMS sessions. |
 | **Begone!** | `/begone` | Click the dot over any visible event NPC to hide it; click again to bring it back. Cosmetic and client-side only, and collision is never touched. Hides are remembered per map. |
 | **HMapSync (HMS)** | `/hms` | Load any in-game map client-side and explore it solo or with up to 20 friends behind a packet filter that keeps you looking idle to the server. Shared weather, BGM and time; client-side mounts and emotes; carpet floors for spots without collision; head-tilt and gaze sync; proximity say/yell passthrough. Co-op needs a relay key (closed beta). |
 
